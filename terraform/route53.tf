@@ -18,7 +18,7 @@ resource "aws_route53_record" "website" {
   }
 }
 
-/*
+
 # Create Route53 A record for www subdomain to point to CloudFront distribution
 resource "aws_route53_record" "www_website" {
   name    = "www.${var.domain_name}"
@@ -31,4 +31,4 @@ resource "aws_route53_record" "www_website" {
     evaluate_target_health = false
   }
   
-}*/
+}
